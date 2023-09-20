@@ -1,0 +1,34 @@
+.free {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 50px; 
+    width: 100%;
+  }
+  
+  .nike-text {
+    font-size: 16px;
+    font-weight: bold;
+    
+    margin: 0;
+    white-space: nowrap;
+    animation: slide-in 15s linear infinite;
+    width: 100%;
+    color: #fdf9f9;
+    font-style: italic;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+
+  marquee{
+    width: 100%;
+    color: #ffffff !important;
+  }

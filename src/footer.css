@@ -1,0 +1,135 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+.footer
+{
+    padding: 30px 40px;
+    width: 100%;
+    background: #140202;
+}
+.footer .container
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .container .about
+{
+    max-width: 30%;
+}
+.footer .container .about .detail p
+{
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+}
+.footer .container .about .detail .icon
+{
+    margin-top: 20px;
+    display: flex;
+}
+.footer .container .about .detail .icon li
+{
+    margin-left: 5px;
+    list-style: none;
+    padding: 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer .container .about .detail .icon li:hover
+{
+    background: blue;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.footer .container .account
+{
+    margin-right: 100px;
+    margin-top: 30px;
+    color: white;
+
+}
+.footer .container .account h3 {
+    font-size: 32px;
+    color: #f0e2e2;
+    font-family: 'Montserrat', sans-serif; 
+    font-style: italic; 
+  }
+
+.footer .container .account ul
+{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.footer .container .account ul li
+{
+    margin-top: 5px;
+    color: rgb(160, 148, 148);
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer .container .account ul li:hover
+{
+    color: #0989ff;
+}
+.footer .container .page
+{
+    margin-right: 100px;
+    margin-top: 30px;
+    
+}
+.footer .container .page h3
+{
+    font-size: 32px;
+    color: white;
+}
+.footer .container .page ul
+{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: rgb(160, 148, 148);
+
+}
+.page
+{
+    color: white;
+}
+.footer .container .page ul li
+{
+    margin-top: 5px;
+   color: rgb(160, 148, 148);
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer .container .page ul li:hover
+{
+    color: blue;
+}
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start; 
+  }
+  
+  
+  
+ 
+  .social-icons li:last-child {
+    margin-right: 0;
+  }
+  
+  
